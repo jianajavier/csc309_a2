@@ -1,0 +1,50 @@
+body {
+    font-family: "Helvetica Light", Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: #696969;
+    padding: 3px;
+    text-align: center;
+    
+}
+
+#gamecontainer {
+    height: 680px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40px;
+    background-color: white;
+}
+
+#startbutton {
+    position:relative;
+    top: 350px;
+    left: 50px;
+}
+
+#radiobuttons {
+    position:relative;
+    top: 244px;
+    left: -30px;
+}
+
+label {
+    display: inline-block;
+    position: relative;
+    font-size: 13px;
+}
+
+#resetbutton {
+    position:relative;
+    top: 440px;
+    left: -20px;
+    visibility: hidden;
+}
+
+#exitbutton {
+    position:relative;
+    top: 440px;
+    left: -20px;
+    visibility: hidden;
+}
